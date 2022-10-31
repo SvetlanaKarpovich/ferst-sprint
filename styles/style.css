@@ -7,7 +7,6 @@ div {
 	min-width: 1100px;
 	max-width: 1600px;
 	margin: auto;
-	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -25,14 +24,16 @@ div {
 }
 
 .content {
-	margin: 0px;
+	margin: auto;
 	display: flex;
 	flex-direction: column;
 }
 
 .description {
-	padding: 100px 0px 0px;
+	margin: auto;
 	width: 80%;
+	height: 100%;
+	display: flex;
 }
 
 .digits {
@@ -113,13 +114,38 @@ div {
 	z-index: 1;
 }
 
+.two-columns {
+	margin: 100px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 .two-columns__brief {
 	width: 175px;
+	color: #2f80ed;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: normal;
 }
 
 .two-columns__main-text {
 	width: 80%;
 	min-width: 784;
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.two-columns__paragraph_strong {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.two-columns__span-accent {
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: 600;
 }
 
 .section-title {
