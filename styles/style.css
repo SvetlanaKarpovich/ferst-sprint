@@ -6,37 +6,50 @@ div {
 	font-family: 'Helvetica Neue', 'Arial', sans-serif;
 	min-width: 1100px;
 	max-width: 1600px;
+	margin: 0px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header {
+	margin: 0px;
+	padding: 0px;
+	background-color: #f2f2f2;
+	min-height: 600px;
+	max-height: 756px;
+	display: flex;
+	position: relative;
+}
+
+.content {
+	margin: 0px;
 	display: flex;
 	flex-direction: column;
 }
 
-.header {
-	background-color: #f2f2f2;
-	min-height: 600px;
-	max-height: 756px;
-}
-
-.content {
-
-}
-
 .description {
+	padding: 100px 0px 0px;
 	width: 80%;
 }
 
 .digits {
-
+	padding: 100px 0px;
 }
 
 .feynman {
+	padding: 0px;
 	background-color: #f2f2f2;
 }
 
 .kaufman {
+	padding: 90px 0px;
 	background-color: #000000;
 }
 
 .footer {
+	padding: 60px 0px 40px;
 	background-color: #000000;
 }
 
@@ -46,7 +59,6 @@ div {
 }
 
 .logo_place_header {
-	background-color: #f2f2f2;
 	position: absolute;
 		top: 30px;
 		left: 64px;
@@ -55,6 +67,10 @@ div {
 
 .header__title {
 	width: 730px;
+	margin-left: 64px;
+	line-height: 96px;
+	font-size: 102px;
+	font-weight: 600;
 }
 
 .header__subtitle {
@@ -62,18 +78,24 @@ div {
 	position: absolute;
 		left: 64px;
 		bottom: 30px;
+	line-height: 25px;
+	font-size: 18px;
+	font-weight: normal;
 }
 
 .header__subtitle-link {
-
+	text-decoration: none;
 } 
 
 .header__main-illustration {
 	width: 765px;
 	height: 608px;
 	position: absolute;
-		left: 0px;
+		right: 0px;
 		bottom: 0px;
+	background-image: url(../images/two_again.png);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .header__square-pic {
@@ -81,8 +103,8 @@ div {
 	height: 568px;
 	background-color: #2f80ed;
 	position: absolute;
-		right: 0px;
 		top: 64px;
+		right: 0px;
 }
 
 .two-columns__brief {
@@ -126,7 +148,10 @@ div {
 
 .feynman__img {
 	width: 867;
-	height: 637px; 
+	height: 637px;
+	background-image: url(../images/feynman.png);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .section-title_theme_dark {
@@ -156,6 +181,12 @@ div {
 .kaufman__triangle {
 	width: 877px;
 	height: 877px;
+	background-image: url(../images/kaufman-triangle.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+		top: 0px;
+	overflow: hidden;
 }
  
 .logo_place_footer {
@@ -165,4 +196,16 @@ div {
 .footer__social-icon {
 	width: 16px;
 	height: 16px;
+}
+
+.footer__social-icon_youtube-facebook {
+	background-image: url(../images/facebook_color_white.svg);
+}
+
+.footer__social-icon_vk {
+	background-image: url(../images/vk_color_white.svg);
+}
+
+.footer__social-icon_tiktok-instagram {
+	background-image: url(../images/instagram_color_white.svg);
 }
