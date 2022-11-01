@@ -29,7 +29,7 @@ div {
 	flex-direction: column;
 }
 
-.description {
+/*.description {
 	margin: auto;
 	width: 80%;
 	height: 100%;
@@ -44,15 +44,18 @@ div {
 
 .feynman {
 	padding: 0px;
+	height: 890px;
 	background-color: #f2f2f2;
-}
+}*/
 
 .kaufman {
+	margin: auto;
 	padding: 90px 0px;
 	background-color: #000000;
+	overflow: hidden;
 }
 
-.footer {
+/*.footer {
 	padding: 60px 0px 40px;
 	background-color: #000000;
 }
@@ -160,9 +163,8 @@ div {
 }
 
 .section-subtitle {
-	margin: auto;
+	margin: 20px auto;
 	width: 60%;
-	margin-top: 20px;
 	line-height: 34px;
 	font-size: 24px;
 	font-weight: normal;
@@ -196,50 +198,96 @@ div {
 	font-weight: normal;
 }
 
-/*.feynman__title {
+.feynman__title {
 	width: 648px;
+	margin: 100px auto auto;
+	line-height: 1.15;
+	font-size: 120px;
+	font-weight: 600;
+	text-align: center;
+	z-index: 1;
 }
 
 .feynman__subtitle {
-
+	margin: 70px auto auto;
+	line-height: 51px;
+	font-size: 36px;
+	font-weight: normal;
+	text-align: center;
+	z-index: 1;
 }
 
 .feynman__link {
+	line-height: 51px;
+	font-size: 36px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #2f80ed;
 	position: absolute;
 		top: 50%;
 		right: 48px;
+	z-index: 1;
 }
 
 .feynman__img {
-	width: 867;
+	width: 867px;
 	height: 637px;
 	background-image: url(../images/feynman.png);
 	background-size: contain;
 	background-repeat: no-repeat;
-}
+	z-index: 0;
+}*/
 
 .section-title_theme_dark {
-
+	color: #ffffff;
+	margin: 0px auto;
+	width: 60%;
+	line-height: 1.15;
+	font-size: 60px;
+	font-weight: 600;
+	text-align: center;
+	z-index: 2;
 }
 
 .section-subtitle_theme_dark {
-
+	color: #ffffff;
+	margin: 20px auto 0px;
+	width: 60%;
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center;
+	z-index: 3;
 }
 
 .table_theme_dark {
-
+	width: 1100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
 }
 
 .table__cell_theme_dark {
 	width: 200px;
+	margin: 80px auto 0px;
+	z-index: 1;
 }
 
 .table__heading_theme_dark {
-
+	color: #ffffff;
+	line-height: 1.15;
+	font-size: 24px;
+	font-weight: 600;
 }
 
 .table__text_theme_dark {
-
+	color: #ffffff;
+	margin-top: 20px;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: normal;
 }
 
 .kaufman__triangle {
@@ -250,10 +298,11 @@ div {
 	background-repeat: no-repeat;
 	position: absolute;
 		top: 0px;
-	overflow: hidden;
+		right: -5%;
+	z-index: 0;
 }
  
-.logo_place_footer {
+/*.logo_place_footer {
 	background-image: url(../images/logo_place_footer.svg);
 }
 
