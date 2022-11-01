@@ -37,7 +37,9 @@ div {
 }
 
 .digits {
+	margin: auto;
 	padding: 100px 0px;
+	height: 100%;
 }
 
 .feynman {
@@ -149,22 +151,52 @@ div {
 }
 
 .section-title {
+	margin: auto;
 	width: 60%;
+	line-height: 1.15;
+	font-size: 60px;
+	font-weight: 600;
+	text-align: center;
 }
 
 .section-subtitle {
+	margin: auto;
 	width: 60%;
+	margin-top: 20px;
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center;
 }
 
 .table {
 	width: 1100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
 }
 
 .table__cell {
 	width: 250px;
+	margin: 60px auto 0px;
 }
 
-.feynman__title {
+.table__heading {
+	line-height: 1.15;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.table__text {
+	margin-top: 20px;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+/*.feynman__title {
 	width: 648px;
 }
 
