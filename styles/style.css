@@ -313,6 +313,7 @@ div {
  
 .logo_place_footer {
 	background-image: url(../images/logo_place_footer.svg);
+	margin: 0px auto auto 0px;
 }
 
 .footer__columns {
@@ -327,6 +328,9 @@ div {
 .footer__column_content_copyright {
 	flex-basis: 711px;
 	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .footer__author {
