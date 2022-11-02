@@ -123,7 +123,6 @@ div {
 	position: absolute;
 		right: 0px;
 		bottom: 0px;
-	background-image: url(../images/two_again.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	z-index: 1;
@@ -254,7 +253,6 @@ div {
 .feynman__img {
 	width: 867px;
 	height: 637px;
-	background-image: url(../images/feynman.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	z-index: 0;
@@ -316,7 +314,6 @@ div {
 .kaufman__triangle {
 	width: 877px;
 	height: 877px;
-	background-image: url(../images/kaufman-triangle.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -380,7 +377,6 @@ div {
 }
 
 .footer__social-icon_youtube-facebook {
-	background-image: url(../images/facebook_color_white.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 16px;
@@ -390,7 +386,6 @@ div {
 }
 
 .footer__social-icon_vk {
-	background-image: url(../images/vk_color_white.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 16px;
@@ -400,7 +395,6 @@ div {
 }
 
 .footer__social-icon_tiktok-instagram {
-	background-image: url(../images/instagram_color_white.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 16px;
