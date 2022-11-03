@@ -9,68 +9,6 @@
 	position: relative;
 }
 
-.header {
-	margin: 0px;
-	padding: 0px;
-	background-color: #f2f2f2;
-	height: 100vh;
-	min-height: 600px;
-	max-height: 756px;
-	display: flex;
-	position: relative;
-	overflow: hidden;
-}
-
-.content {
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-	position: relative;
-}
-
-.description {
-	margin: 0px auto;
-	padding: 100px 0px 0px;
-	width: 100%;
-	height: 100%;
-	display: flex;
-}
-
-.digits {
-	margin: 0px auto;
-	padding: 100px 0px;
-	height: 100%;
-	width: 100%;
-}
-
-.feynman {
-	width: 100%;
-	padding: 0px;
-	height: 890px;
-	background-color: #f2f2f2;
-	position: relative;
-	margin: 0px auto;
-	padding: 0px;
-}
-
-.kaufman {
-	width: 100%;
-	margin: auto;
-	padding: 90px 0px;
-	background-color: #000000;
-	overflow: hidden;
-	position: relative;
-}
-
-.footer {
-	padding: 60px 0px 40px;
-	margin: 0px auto 0px auto;
-	background-color: #000000;
-	min-height: 350px;
-	width: 100%;
-	display: flex;
-}
-
 .logo {
 	width: 228px;
 	height: 32px;
@@ -84,6 +22,18 @@
 
 .logo_place_footer {
 	margin: 0px auto auto 0px;
+}
+
+.header {
+	margin: 0px;
+	padding: 0px;
+	background-color: #f2f2f2;
+	height: 100vh;
+	min-height: 600px;
+	max-height: 756px;
+	display: flex;
+	position: relative;
+	overflow: hidden;
 }
 
 .header__title {
@@ -141,6 +91,21 @@
 	z-index: 0;
 }
 
+.content {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.description {
+	margin: 0px auto;
+	padding: 100px 0px 0px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
 .two-columns {
 	width: 80%;
 	margin: 0px auto;
@@ -171,6 +136,13 @@
 	font-weight: 600;
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+.digits {
+	margin: 0px auto;
+	padding: 100px 0px;
+	height: 100%;
+	width: 100%;
 }
 
 .section-title {
@@ -220,6 +192,16 @@
 	font-weight: normal;
 }
 
+.feynman {
+	width: 100%;
+	padding: 0px;
+	height: 890px;
+	background-color: #f2f2f2;
+	position: relative;
+	margin: 0px auto;
+	padding: 0px;
+}
+
 .feynman__title {
 	width: 648px;
 	margin: 100px auto auto;
@@ -263,6 +245,16 @@
 		left: 0px;
 		bottom: 0px;
 	z-index: 0;
+}
+
+
+.kaufman {
+	width: 100%;
+	margin: auto;
+	padding: 90px 0px;
+	background-color: #000000;
+	overflow: hidden;
+	position: relative;
 }
 
 .section-title_theme_dark {
@@ -329,6 +321,16 @@
 		top: 0px;
 		right: -210px;
 	z-index: 0;
+}
+
+
+.footer {
+	padding: 60px 0px 40px;
+	margin: 0px auto 0px auto;
+	background-color: #000000;
+	min-height: 350px;
+	width: 100%;
+	display: flex;
 }
 
 .footer__columns {
