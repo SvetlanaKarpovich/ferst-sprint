@@ -16,8 +16,8 @@
 
 .logo_place_header {
 	position: absolute;
-		top: 30px;
-		left: 64px;
+	top: 30px;
+	left: 64px;
 }
 
 .header {
@@ -34,7 +34,7 @@
 
 .header__title {
 	width: 730px;
-	margin-left: 64px;
+	margin: 0 0 0 64px;
 	line-height: 96px;
 	font-size: 102px;
 	font-weight: 600;
@@ -46,9 +46,10 @@
 
 .header__subtitle {
 	width: 388px;
+	margin: 0;
 	position: absolute;
-		left: 64px;
-		bottom: 30px;
+	left: 64px;
+	bottom: 30px;
 	line-height: 25px;
 	font-size: 18px;
 	font-weight: normal;
@@ -70,8 +71,8 @@
 	width: 765px;
 	height: 608px;
 	position: absolute;
-		right: 0;
-		bottom: 0;
+	right: 0;
+	bottom: 0;
 	background-size: cover;
 	background-repeat: no-repeat;
 	z-index: 1;
@@ -82,8 +83,8 @@
 	height: 568px;
 	background-color: #2f80ed;
 	position: absolute;
-		top: 64px;
-		right: 0;
+	top: 64px;
+	right: 0;
 	z-index: 0;
 }
 
@@ -110,7 +111,7 @@
 	justify-content: space-between;
 }
 
-.two-columns__h2 {
+.two-columns__brief {
 	margin: 0;
 	width: 175px;
 	color: #2f80ed;
@@ -232,8 +233,8 @@
 	text-decoration: none;
 	color: #2f80ed;
 	position: absolute;
-		top: 50%;
-		right: 48px;
+	top: 50%;
+	right: 48px;
 	z-index: 3;
 }
 
@@ -244,8 +245,8 @@
 	background-repeat: no-repeat;
 	margin: auto auto 0 0;
 	position: absolute;
-		left: 0;
-		bottom: 0;
+	left: 0;
+	bottom: 0;
 	z-index: 0;
 }
 
@@ -294,8 +295,8 @@
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: absolute;
-		top: 0;
-		right: -210px;
+	top: 0;
+	right: -210px;
 	z-index: 0;
 }
 
