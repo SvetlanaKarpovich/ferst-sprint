@@ -1,3 +1,12 @@
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
 .page {
 	font-family: 'Helvetica Neue', 'Arial', sans-serif;
 	min-width: 1100px;
@@ -18,6 +27,7 @@
 	position: absolute;
 	top: 30px;
 	left: 64px;
+	z-index: 5;
 }
 
 .header {
@@ -88,6 +98,10 @@
 	z-index: 0;
 }
 
+.rotation {
+	animation: rotation 20s infinite normal linear;
+}
+
 .content {
 	margin: auto;
 	display: flex;
@@ -142,34 +156,21 @@
 	font-weight: 600;
 }
 
-.digits {
-	margin: 0 auto;
-	padding: 100px 0;
-	height: 100%;
-	width: 100%;
+.red {
+	border: 1px solid red;
+	margin: 0;
+	padding: 0;
 }
 
-.section-title {
-	margin:  0 auto;
-	width: 60%;
-	line-height: 1.15;
-	font-size: 60px;
-	font-weight: 600;
-	text-align: center;
+.techniques {
+	width: 80%;
+	margin:0 auto;
+	padding: 100px 0 0;
 }
 
-.section-subtitle {
-	margin: 20px auto 0;
-	width: 60%;
-	line-height: 34px;
-	font-size: 24px;
-	font-weight: normal;
-	text-align: center;
-}
-
-.table {
-	margin: auto;
-	width: 1100px;
+.cards {
+	margin: 0;
+	width: 920px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -177,23 +178,71 @@
 	flex-wrap: wrap;
 }
 
-.table__cell {
-	width: 250px;
-	margin: 60px 0 0;
+.card__item {
+	margin-right: 100px;
+	padding: 0;	
 }
 
-.table__heading {
-	margin: 0;
+.card__item:last-of-type{
+	margin-right: 0;
+}
+
+.card__image {
+	width: 160px;
+	height: 160px;
+	margin: 60px 40px 43px;
+	padding: 0;
+	border-radius: 50%;
+}
+
+.card__title {
+	margin: 0 0 16px;
+	padding: 0;
 	line-height: 1.15;
 	font-size: 24px;
 	font-weight: 600;
+	text-align: center;
 }
 
-.table__text {
-	margin: 20px auto 0;
-	line-height: 1.2;
+.card__description {
+	margin: 0;
+	padding: 0;
+	line-height: 23px;
 	font-size: 18px;
 	font-weight: normal;
+	text-align: center;
+}
+
+.video {
+	padding: 100px 0 0;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	bottom: -60px;
+}
+
+.video__iframes {
+	margin: 50px auto 0;
+	padding: 0;
+}
+
+.video__iframe {
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+
+.video__iframe:last-of-type {
+	margin: 0;
+}
+
+.oakley {
+	margin: 0 auto;
+	padding: 160px 0 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content: center;
 }
 
 .feynman {
@@ -250,6 +299,76 @@
 	z-index: 0;
 }
 
+.digits {
+	margin: 0 auto;
+	padding: 100px 0;
+	height: 100%;
+	width: 100%;
+}
+
+.section-title {
+	margin:  0 auto;
+	width: 60%;
+	line-height: 1.15;
+	font-size: 60px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.section-subtitle {
+	margin: 20px auto 0;
+	width: 60%;
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.table {
+	margin: auto;
+	width: 1100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.table__cell {
+	width: 250px;
+	margin: 60px 0 0;
+}
+
+.table__heading {
+	margin: 0;
+	line-height: 1.15;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.table__text {
+	margin: 20px auto 0;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.khan {
+	margin: 0 auto;
+}
+
+.khan__container {
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.khan__book-container {
+	display: flex;
+	flex-direction: row;
+}
 
 .kaufman {
 	width: 100%;
