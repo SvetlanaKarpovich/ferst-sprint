@@ -185,6 +185,8 @@
 	margin: 0 100px 0 0;
 	padding: 0;
 	list-style-type: none;
+	display: grid;
+	justify-items: center;
 }
 
 .card__item:nth-of-type(3) {
@@ -384,6 +386,7 @@
 
 .khan__author {
 	width: 100%;
+	margin: 0;
 	line-height: 42px;
 	font-size: 30px;
 	font-weight: normal;
@@ -391,6 +394,7 @@
 
 .khan__title {
 	width: 100%;
+	margin: 0;
 	line-height: 1.15;
 	font-size: 60px;
 	font-weight: 600;
@@ -406,6 +410,7 @@
 
 .khan__quote-author {
 	width: 100%;
+	margin: 0;
 	line-height: 1.15;
 	font-size: 24px;
 	font-weight: 600;
@@ -421,6 +426,7 @@
 
 .khan__book-container {
 	width: 100%;
+	margin: 0;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
