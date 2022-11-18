@@ -9,8 +9,3 @@
 	font-weight: normal;
 	z-index: 3;
 }
-
-.header__subtitle-link:hover {
-	color: #2f80ed;
-	text-decoration: none;
-}

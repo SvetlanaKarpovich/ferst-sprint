@@ -3,3 +3,9 @@
 	text-decoration: none;
 	z-index: 4;
 }
+
+.header__link:hover {
+	opacity: 0.5;
+	transition: linear 0.1s;
+	text-decoration: none;
+}

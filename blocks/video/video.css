@@ -1,0 +1,8 @@
+.video {
+	padding: 100px 0 0;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	bottom: -60px;
+	page-break-before: avoid;
+}
