@@ -1,8 +1,8 @@
 .khan {
-	margin: 0 auto;
-	padding: 105px 0 0;
-	width: 100%;
-	background-color: #f2f2f2;
-	display: flex;
-	flex-direction: row;
+  margin: 0 auto;
+  padding: 105px 0 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
 }

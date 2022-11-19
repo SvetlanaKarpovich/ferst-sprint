@@ -1,8 +1,8 @@
 .card {
-	margin: 0 auto;
-	padding: 0;
-	display: grid;
-    grid-template-columns: repeat(3,3fr);
-	grid-template-rows: repeat(2,3fr);
-	align-items: self-start;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3,3fr);
+  grid-template-rows: repeat(2,3fr);
+  align-items: self-start;
 }

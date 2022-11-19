@@ -1,13 +1,13 @@
 .resources__link {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin: 0;
-	padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .resources__link:hover {
-	opacity: 0.5;
-	transition: linear 0.1s;
-	text-decoration: none;
+  opacity: 0.5;
+  transition: linear 0.1s;
+  text-decoration: none;
 }
