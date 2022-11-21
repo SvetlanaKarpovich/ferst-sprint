@@ -1,11 +1,12 @@
-.card__item {
+.cards__item {
   margin: 0 100px 0 0;
   padding: 0;
+  border: none;
   list-style-type: none;
   display: grid;
   justify-items: center;
 }
 
-.card__item:nth-of-type(3) {
+.cards__item:nth-of-type(3) {
   margin: 0;
 }
