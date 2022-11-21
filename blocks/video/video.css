@@ -5,5 +5,4 @@
   flex-direction: column;
   position: relative;
   bottom: -60px;
-  page-break-before: avoid;
 }
